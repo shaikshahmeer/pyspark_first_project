@@ -10,3 +10,5 @@ df.show()
 df.createOrReplaceTempView("travel")
 
 spark.sql("select * from travel")
+
+spark.submit()
